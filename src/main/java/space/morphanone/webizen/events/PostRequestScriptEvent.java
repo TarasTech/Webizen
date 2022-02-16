@@ -1,6 +1,5 @@
 package space.morphanone.webizen.events;
 
-import com.denizenscript.denizen.utilities.DenizenAPI;
 import com.denizenscript.denizen.Denizen;
 import com.sun.net.httpserver.HttpExchange;
 import com.denizenscript.denizen.utilities.Utilities;
