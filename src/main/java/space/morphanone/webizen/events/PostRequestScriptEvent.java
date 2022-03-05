@@ -120,9 +120,9 @@ public class PostRequestScriptEvent extends BasicRequestScriptEvent {
         else if (name.equals("address")) {
             return new ElementTag(httpExchange.getRemoteAddress().getAddress().getHostAddress());
         }
-        else if (name.equals("request")) {
-            return new ElementTag(httpExchange.getHttpContext().getPath());
-        }
+//        else if (name.equals("request")) {
+//            return new ElementTag(httpExchange.getHttpContext().getPath());
+//        }
         else if (name.equals("query")) {
             return this.entire_body;
         }
